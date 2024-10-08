@@ -1,0 +1,32 @@
+header{
+	background-color: #161414;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    border-radius: 0.5rem;
+}
+
+
+.header-navigation{
+	margin: 1em;
+	width: 90%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 1.3em;
+    flex-grow: 1;
+    
+}
+
+.header-navigation > *{
+	background-color: rgb(6, 92, 92);
+    border: solid 1px #40c9c9;
+    border-radius: 0.5rem;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	text-align: center;
+	text-decoration: none;
+	color: rgb(70, 197, 214);
+	font-weight: bolder;
+	font-size: 1.2em;
+
+}
