@@ -1,5 +1,5 @@
 header{
-	background-color: #161414;
+	background-color: #31373b;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -31,3 +31,10 @@ header{
 	font-size: 1.2em;
 
 }
+.header-navigation > *:hover{
+        box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3),
+        -10px -10px 20px rgba(0, 0, 0, 0.1);
+
+    }
+
+    
