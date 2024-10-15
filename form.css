@@ -68,3 +68,20 @@ input:invalid:focus, textarea:invalid:focus {
     color: red;
     font-size: 0.9em;
 }
+
+.image1, .image2 {
+    display: none;
+}
+
+/* .checkmark .image2 {
+    display: block;
+}
+
+.checkmark input[type="checkbox"]:checked ~ .image1 {
+    display: block;
+}
+
+.checkmark input[type="checkbox"]:checked ~ .image2 {
+    display: block;
+} */
+  

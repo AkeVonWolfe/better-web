@@ -62,3 +62,25 @@ body{
 .timeline-date:hover{
     color: #b89112;
 }
+
+@keyframes fadeIn {
+	from {
+		transform: scale(0.9); opacity: 0;}
+	to {
+		transform: scale(1); opacity: 1;}
+	}
+
+
+.timeline-item {
+	opacity: 0;
+	animation: fadeIn 1s forwards;
+	animation-delay: 0.5s;
+	
+	}
+
+
+
+.timeline-item.in-view {
+	opacity: 1;
+}
+
