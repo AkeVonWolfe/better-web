@@ -42,7 +42,6 @@ footer {
 	padding-left: 1em;
   }
   
-
   .social-icons {
     display: flex;
     justify-content: space-around;
@@ -53,4 +52,8 @@ footer {
     color: white;
     text-decoration: none;
     font-size: 1.5em;
+  }
+
+  .social-icons a:hover {
+    color: #40c9c9;
   }
