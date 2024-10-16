@@ -17,17 +17,15 @@ body{
 	flex-wrap: wrap;
 	position: relative;
 }
-
 .timeline-item{
 	margin-bottom: 2rem;
 	width: 100%;
 	position: relative;
 }
-
 .timeline-date{
 	font-size: 18px;
 	color:  #40c9c9;
-	margin:6px 0 15px;
+	margin: 1rem ;
 }
 .timeline-content{
     background-color: #2f363e;
@@ -37,7 +35,6 @@ body{
 .timeline-content h3{
     font-size: 20px;
 	color: #220d0d;
-	margin:0 0 10px;
 	text-transform: capitalize;
 	font-weight: 500;
 }
@@ -45,7 +42,6 @@ body{
     color: #c8c8c8;
 	font-size: 16px;
 	font-weight: 300;
-	line-height: 22px;
 }
 .timeline-content {
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
