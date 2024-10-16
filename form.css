@@ -40,9 +40,7 @@ button {
 
 button:hover {
     background-color: #218838;
-    
 }
-
 
 input:invalid, textarea:invalid {
     border-color: red;
@@ -54,7 +52,6 @@ input:invalid:focus, textarea:invalid:focus {
     box-shadow: 0 0 5px red;
 }
 
-
 .checkmark {
     display: flex;
     align-items: center;
@@ -64,17 +61,13 @@ input:invalid:focus, textarea:invalid:focus {
     margin-right: 1rem;
 }
 
-.error {
-    color: red;
-    font-size: 0.9em;
+.checkmark img {
+    width: 20rem;
+    height: auto;
 }
 
-.image1, .image2 {
+.image1 {
     display: none;
-}
-
-/* .checkmark .image2 {
-    display: block;
 }
 
 .checkmark input[type="checkbox"]:checked ~ .image1 {
@@ -82,6 +75,10 @@ input:invalid:focus, textarea:invalid:focus {
 }
 
 .checkmark input[type="checkbox"]:checked ~ .image2 {
-    display: block;
-} */
-  
+    display: none;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}

@@ -5,34 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="form.css">
-    <img src="" alt="">
 </head>
 <body>
+    
     <div class="scroll-container">
         <div class="scroll-content">
           <div class="animated-box"></div>
         </div>
-      </div>
+    </div>
 
     <form action="#">
 
         <div class="checkmark">
-            <img class="image1" src="Pictures/ticket-full.png" alt="" width="auto" height="auto">
-            <img class="image2" src="Pictures/ticket-ripped.png" alt=""width="auto" height="auto">
-            <label for="fredagen">Friday</label>
             <input type="checkbox" id="fredagen">
+            <label for="fredagen">Friday</label>
+            <img class="image1" src="Pictures/ticket-ripped.png" alt="" width="auto" height="auto">
+            <img class="image2" src="Pictures/ticket-full.png" alt="" width="auto" height="auto">
         </div>
 
         <div class="checkmark">
-            <img src="Pictures/ticket-ripped.png" alt="">
-            <label for="lördagen">Saturday</label>
             <input type="checkbox" id="lördagen">
+            <label for="lördagen">Saturday</label>
+            <img class="image1" src="Pictures/ticket-ripped.png" alt="" width="auto" height="auto">
+            <img class="image2" src="Pictures/ticket-full.png" alt="" width="auto" height="auto">
+            
         </div>
 
         <div class="checkmark">
-            <label for="söndagen">Sunday</label>
             <input type="checkbox" id="söndagen">
+            <label for="söndagen">Sunday</label>
+            <img class="image1" src="Pictures/ticket-ripped.png" alt="" width="auto" height="auto">
+            <img class="image2" src="Pictures/ticket-full.png" alt="" width="auto" height="auto">
+            
         </div>
+
     
         <p>
             <label for="namn">Name</label>
@@ -46,7 +52,6 @@
             <span class="error">Please enter a valid email address.</span>
         </p>
 
-        
         <div>
             <label for="mat">Food preference</label>
             <select name="mat" id="mat" required>
@@ -57,19 +62,16 @@
             </select>
             <span class="error">Please select a food preference.</span>
         </div>
-        
-        
+
         <p>
             <label for="Allergi">Allergies</label>
             <textarea id="Allergi" placeholder="Any allergies?" rows="3"></textarea>
         </p>
 
-
-        
         <p>
             <button type="submit">Submit info</button>
         </p>
-        
+
     </form>
 
 </body>
