@@ -26,6 +26,9 @@ body{
 	font-size: 18px;
 	color:  #40c9c9;
 	margin: 1rem ;
+	font-weight: bold;
+	text-transform: uppercase;
+	
 }
 .timeline-content{
     background-color: #2f363e;
@@ -40,7 +43,7 @@ body{
 }
 .timeline-content p{
     color: #c8c8c8;
-	font-size: 16px;
+	font-size: 1.5rem;
 	font-weight: 300;
 }
 .timeline-content {
@@ -65,14 +68,14 @@ body{
 	opacity: 0;
 	animation: fadeIn 1s forwards;
 	animation-delay: 0.5s;
-    /* animation-timing-function: view(0.5);
+    animation-timing-function: view(0.5);
 	animation-range-start: contain;
-	animation-range-end: contain; */
+	animation-range-end: contain; 
 	}
 
 
 
-/* .timeline-item.in-view {
+ .timeline-item.in-view {
 	opacity: 1;
-} */
+} 
 
