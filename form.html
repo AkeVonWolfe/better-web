@@ -1,139 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="form.css">
-    <link rel="stylesheet" href="footer.css"> 
-    <link rel="stylesheet" href="header.css">  
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="form.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="header-logo-container">
-            <a class="header-logo" href="index.html"><img src="Pictures/gbg-logo.png" alt="Göteborg stad"></a>
-        </div>
-	
-	<nav class="header-nav">
-		<a href="index.html">Home</a>
-		<a href="form.html">Tickets</a>
-		<a href="info.html">Info</a>
-	</nav>
-	</header>
-    
-   
-
-    <main>
-        <div class="form-container">
-            <form action="#">
-                <div class="checkmark">
-                    <input type="checkbox" id="entire-day">
-                    <label for="entire-day">
-                    For The Entire Conference - 18/10-20/10
-                        <!-- <img class="image1" src="Pictures/ticket-ripped.png" alt="">
-                        <img class="image2" src="Pictures/ticket-full.png" alt=""> -->
-                    </label>
-                </div>
-
-                <div class="checkmark">
-                    <input type="checkbox" id="fredagen">
-                    <label for="fredagen">For Friday - 18/10</label>
-                        <!-- <img class="image1" src="Pictures/ticket-ripped.png" alt="" >
-                        <img class="image2" src="Pictures/ticket-full.png" alt="" > -->
-                    </label>
-                </div>
-        
-                <div class="checkmark">
-                    <input type="checkbox" id="lördagen">
-                    <label for="lördagen">For Saturday - 19/10</label>
-                    <!-- <img class="image1" src="Pictures/ticket-ripped.png" alt="" >
-                    <img class="image2" src="Pictures/ticket-full.png" alt="" >
-                     -->
-                </div>
-        
-                <div class="checkmark">
-                    <input type="checkbox" id="söndagen">
-                    <label for="söndagen"> For Sunday - 20/10</label>
-                    <!-- <img class="image1" src="Pictures/ticket-ripped.png" alt="" >
-                    <img class="image2" src="Pictures/ticket-full.png" alt="" >
-                 -->
-                </div>
-        
-            
-                <p>
-                    <label for="namn">Name</label>
-                    <input id="namn" type="text" placeholder="Name must be at least 2 characters" minlength="2" required>
-                </p>
-                <p>
-                    <label for="adress">Adress</label>
-                    <input id="adress" type="adress" placeholder="Please enter a valid Adress" required>
-                </p>
-          
-                <p>
-                    <label for="email">Email</label>
-                    <input id="email" type="email" placeholder="Please enter a valid email address" required>
-                </p>
-        
-                <div>
-                    <label for="mat">Food preference</label>
-                    <select name="mat" id="mat"  required>
-                        <option value="">Select food</option>
-                        <option value="Kött">Meat</option>
-                        <option value="Fisk">Fish</option>
-                        <option value="Vegetarisk">Vegetarian</option>
-                    </select>
-                </div>
-        
-                <p>
-                    <label for="Allergi">Allergies</label>
-                    <textarea id="Allergi" placeholder="Any allergies?" rows="3"></textarea>
-                </p>
-        
-                <p>
-                    <button type="submit">Submit info</button>
-                </p>
-            </form>
-        </div>
-    
-        
-
-    </main>
-
-    
-    <footer>
-        <div class="footer-container">
-          <div class="footer-section">
-            <h4>company</h4>
-					<ul>
-						<li><a href="#">about us</a></li>
-						<li><a href="#">our services</a></li>
-						<li><a href="#">privacy policy</a></li>
-					</ul>
-				</div>
-          <div class="footer-section">
-            <h4>help</h4>
-					<ul>
-						<li><a href="#">FAQ</a></li>
-						<li><a href="#">order status</a></li>
-						<li><a href="#">payment options</a></li>
-					</ul>
-            </ul>
+  <header>
+    <div class="header-logo-container">
+      <a class="header-logo" href="index.html"><img src="Pictures/gbg-logo.png" alt="Göteborg stad"></a>
+    </div>
+    <nav class="header-nav">
+      <a href="index.html">Home</a> 
+      <a href="form.html">Tickets</a> 
+      <a href="info.html">Info</a>
+    </nav>
+  </header>
+  <main>
+    <div class="form-container">
+      <form action="#">
+        <fieldset>
+          <legend>Select Conference Days</legend>
+          <div class="checkmark">
+            <input type="checkbox" id="entire-day"> 
+            <label for="entire-day">For The Entire Conference - 18/10-20/10</label>
           </div>
-          <div class="footer-section">
-            <h4>Follow Us</h4>
-            <ul class="social-icons">
-                  <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-
-                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-
-                 <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-
-            </ul>
+          <div class="checkmark">
+            <input type="checkbox" id="fredagen"> 
+            <label for="fredagen">For Friday - 18/10</label>
           </div>
+          <div class="checkmark">
+            <input type="checkbox" id="lördagen"> 
+            <label for="lördagen">For Saturday - 19/10</label>
+          </div>
+          <div class="checkmark">
+            <input type="checkbox" id="söndagen"> 
+            <label for="söndagen">For Sunday - 20/10</label>
+          </div>
+        </fieldset>
+        <p>
+          <label for="namn">Name</label> 
+          <input id="namn" type="text" placeholder="Name must be at least 2 characters" minlength="2" required>
+        </p>
+        <p>
+          <label for="adress">Address</label> 
+          <input id="adress" type="text" placeholder="Please enter a valid Address" required>
+        </p>
+        <p>
+          <label for="email">Email</label> 
+          <input id="email" type="email" placeholder="Please enter a valid email address" required>
+        </p>
+        <div>
+          <label for="mat">Food preference</label> 
+          <select name="mat" id="mat" required>
+            <option value="">Select food</option>
+            <option value="Kött">Meat</option>
+            <option value="Fisk">Fish</option>
+            <option value="Vegetarisk">Vegetarian</option>
+          </select>
         </div>
-        
-      </footer>
-
+        <p>
+          <label for="Allergi">Allergies</label> 
+          <textarea id="Allergi" placeholder="Any allergies?" rows="3"></textarea>
+        </p>
+        <p>
+          <button type="submit">Submit info</button>
+        </p>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Services</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Help</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Order Status</a></li>
+          <li><a href="#">Payment Options</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <ul class="social-icons">
+          <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

@@ -107,3 +107,10 @@ label {
 input[type="checkbox"] {
     transform: scale(1.5);
 }
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: white;
+}
