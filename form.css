@@ -64,7 +64,7 @@ input:invalid:focus, textarea:invalid:focus {
 
 .checkmark img {
     width: 20rem;
-    height: auto;
+    height: 10rem;
 }
 
 .image1 {
@@ -97,5 +97,8 @@ input:invalid:focus, textarea:invalid:focus {
 
 .form-container form {
     max-width: 100%;
+}
+.checkmark input[type="checkbox"]:checked ~ .image1 .image2{
+    cursor: pointer;
 }
 
