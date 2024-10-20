@@ -1,27 +1,27 @@
-header{
+header {
 	background-color: #31373b;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-    border-radius: 0.5rem;
+	border-radius: 0.5rem;
+	margin: auto; 
+	width: 90%; 
 }
 
-
-.header-navigation{
+.header-navigation {
 	margin: 1em;
 	width: 90%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	gap: 1.3em;
-    flex-grow: 1;
+	flex-grow: 1;
 	padding-left: 14em;
-    
 }
 
-.header-navigation > *{
+.header-navigation > * {
 	background-color: rgb(7, 12, 12);
-    border: solid 1px #40c9c9;
-    border-radius: 0.5rem;
+	border: solid 1px #40c9c9;
+	border-radius: 0.5rem;
 	padding-top: 0.3rem;
 	padding-bottom: 0.3rem;
 	text-align: center;
@@ -29,10 +29,9 @@ header{
 	color: rgb(70, 197, 214);
 	font-weight: bolder;
 	font-size: 1.2em;
-
 }
-.header-navigation > *:hover{
-        box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3),
-        -10px -10px 20px rgba(0, 0, 0, 0.1);
 
-    }
+.header-navigation > *:hover {
+	box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3),
+				-10px -10px 20px rgba(0, 0, 0, 0.1);
+}

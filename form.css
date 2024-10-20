@@ -4,6 +4,7 @@
 
 body {
     padding: 2rem;
+    background-color:#2f363e ;
 }
 
 form {
@@ -78,10 +79,8 @@ input:invalid:focus, textarea:invalid:focus {
     display: none;
 }
 
+
 .error {
     color: red;
     font-size: 0.9em;
 }
-/* .namn input::placeholder {
-    color: #c94040;
-} */
