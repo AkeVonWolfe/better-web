@@ -101,7 +101,7 @@ input:invalid:focus, textarea:invalid:focus {
     max-width: 100%;
 }
 
-.checkmark label {
+label {
     color: white;
 }
 input[type="checkbox"] {
