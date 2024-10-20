@@ -1,11 +1,9 @@
-/* Basic reset */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-/* Header styling */
 header {
 	background-color: #333;
 	color: white;
@@ -15,13 +13,11 @@ header {
 	align-items: center;
 }
 
-/* Logo styling */
 header .logo {
 	font-size: 1.5rem;
 	font-weight: bold;
 }
 
-/* Navigation styling */
 header nav {
 	display: flex;
 	gap: 1rem;
@@ -32,14 +28,17 @@ header nav a {
 	text-decoration: none;
 	padding: 0.5rem 1rem;
 	transition: background-color 0.3s;
+	padding-right: 2rem;
+	font-size: 2rem;
+	font-family: 'Gotham', sans-serif;
 }
 
 header nav a:hover {
-	background-color: #555;
-	border-radius: 5px;
+	color: #40c9c9;
+
 }
 
-/* Responsive design */
+
 @media (max-width: 768px) {
 	header {
 		flex-direction: column;

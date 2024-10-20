@@ -3,11 +3,11 @@
 }
 
 body {
-    padding: 2rem;
     background-color:#2f363e ;
 }
 
 form {
+    padding-top: 2rem;
     max-width: 30rem;
     margin: 0 auto;
     display: flex;
@@ -84,3 +84,18 @@ input:invalid:focus, textarea:invalid:focus {
     color: red;
     font-size: 0.9em;
 }
+::placeholder {
+    color: red;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: fit-content;
+}
+
+.form-container form {
+    max-width: 100%;
+}
+
